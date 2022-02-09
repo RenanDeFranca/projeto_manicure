@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+:root{
+    --cor1: #7A5E10;
+    --cor2: #C79E2E;
+    --cor3: #C7950D;
+    --cor4: #f5f1e7;
+    --cor5: #cc3ef0;
+    --cor6: #6a1aac;
+    --cor7: #e8e0f3;
+    --cor8: #ebf7fc;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+header{
+    min-height: 100px;
+}
+
+header > picture > img{
+    margin: 10px 0 0 90px;
+}
+
+nav{
+    float: right;
+    margin: 35px 40px 0 0;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color:var(--cor6);
+    margin: 50px;
+}
+
+nav > a:hover{
+    color: var(--cor5);
+}
+
+main{
+    max-width: 100%;
+}
+
+article{
+    width: 100%;
+}
+
+div{
+    width: 800px;
+    margin: auto;
+}
+
+article#primeiro{
+    height: 300px;
+    background-color:var(--cor5);
+    padding: 0px;
+    margin: 0px;
+}
+
+#primeiro > div > picture{
+    display: block;
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width: 350px;
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+#primeiro > div >p{
+    color: white;
+    display: block;
+    float: right;
+    width: 350px;
+    text-align: justify;
+    display: block;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+article#segundo{
+    height: 300px;
+    color:var(--cor6);
+    text-align: center;
+    background-color: var(--cor7);
+    padding: 0px;
+    margin: 0px;
+}
+
+#segundo > div > h2{
+    font-size: 2em;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+article#video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-color: #50AACF;
+}
+
+.vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+} 
+
+article#terceiro{
+    height: 250px;
+    text-align: center;
+    color: #10287A;
+    background-color: var(--cor8);
+}
+
+#terceiro > div > h2{
+    padding-top: 60px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.123);
+}
+
+#terceiro > div > p{
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.123);
+}
+
+article#mapa{
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: #10287A;
+    color: white;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 7px 0px 0px 0px;
+}
